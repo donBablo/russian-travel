@@ -1,0 +1,7 @@
+.places{
+  max-width: 984px;
+  margin-top: 92px;
+}
+.places:first-child{
+  margin-top: 92px;
+}
