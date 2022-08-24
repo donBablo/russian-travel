@@ -5,3 +5,9 @@
   font-size: 16px;
   line-height: 18px;
 }
+
+.footer__link:hover {
+  transition-property: opacity;
+  opacity: .75;
+  transition-duration: 0.25s;
+}

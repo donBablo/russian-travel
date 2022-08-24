@@ -6,3 +6,27 @@
   height: 740px;
   color: white;
 }
+@media screen and (max-width:1280px) {
+  .cover{
+    margin-top: 92px;
+    width: 100%;
+  }
+}
+@media screen and (max-width:1024px) {
+  .cover{
+    margin-top: 92px;
+    width: 100%;
+  }
+}
+@media screen and (max-width:768px) {
+  .cover{
+    margin-top: 90px;
+    width: 100%;
+  }
+}
+@media screen and (max-width:320px) {
+  .cover{
+    margin-top: 66px;
+    width: 100%;
+  }
+}
