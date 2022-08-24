@@ -23,13 +23,13 @@
 /*places*/
 @import url(../blocks/places/places.css);
 /*place*/
-@import url(../blocks/place/place.css);
-@import url(../blocks/place/__image/__image.css);
-@import url(../blocks/place/__paragraph/__paragraph.css);
-@import url(../blocks/place/__title/__title.css);
-@import url(../blocks/place/__website/place__website.css);
-@import url(../blocks/place/__website/__link/__link.css);
-@import url(../blocks/place/__website/__url-heading/__url-heading.css);
+@import url(../blocks/places/place/place.css);
+@import url(../blocks/places/place/__image/__image.css);
+@import url(../blocks/places/place/__paragraph/__paragraph.css);
+@import url(../blocks/places/place/__title/__title.css);
+@import url(../blocks/places/place/__website/place__website.css);
+@import url(../blocks/places/place/__website/__link/__link.css);
+@import url(../blocks/places/place/__website/__url-heading/__url-heading.css);
 /*cover*/
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/__title.css);
