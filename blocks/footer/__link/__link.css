@@ -1,13 +1,38 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
+       url("Inter-Regular.woff?v=3.19") format("woff");
+}
 .footer__link{
   color: white;
   text-decoration-line: none;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
+  display: grid;
+  grid-area: footer__link;
 }
 
 .footer__link:hover {
   transition-property: opacity;
   opacity: .75;
   transition-duration: 0.25s;
+}
+.footer__link:nth-child(1){
+  grid-column: 1;
+}
+.footer__link:nth-child(2){
+  grid-column: 2;
+}
+.footer__link:nth-child(3){
+  grid-column: 3;
+}
+.footer__link:nth-child(4){
+  grid-column: 4;
+}
+.footer__link:nth-child(5){
+  grid-column: 5;
 }

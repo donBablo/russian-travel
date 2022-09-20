@@ -1,9 +1,18 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
+       url("Inter-Regular.woff?v=3.19") format("woff");
+}
 .lead__caption{
-  max-width: 158px;
-  color: white;
+  width: 158px;
+  color: #FFFFFF;
   font-weight: 400;
   font-size: 10px;
   line-height: 14px;
   margin-top: 8px;
   margin-bottom: 0;
+  letter-spacing: 1.5px;
 }

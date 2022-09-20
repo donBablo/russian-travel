@@ -1,11 +1,7 @@
- @font-face{
-  font-family: 'Inter';
-	src: local('Inter'),
-		url(../../vendor/Inter\ Desktop/page); 
- }
- .page{
+.page{
   min-width: 320px;
   background-color: #2A2C2F;
   margin: 0 auto;
   font-family: 'Inter';
+  background-size: cover;
 }

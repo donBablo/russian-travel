@@ -1,8 +1,27 @@
 .header{
   max-width: 1184px;
+  margin-left: auto;
+  margin-right: auto;
   height: 52px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: flex-end;
+  padding-top: 26px;
+  display: grid;
+  grid-template-columns: minmax(200px, 1000px) repeat(2, auto);
+  grid-template-rows: 1;
+  grid-template-areas: 
+  "logo link link";
 }
+/*@media screen and (max-width:1024px) {
+  .header{
+    grid-template-columns: 800px repeat(2, auto);
+  }
+}
+@media screen and (max-width:768px) {
+  .header{
+    grid-template-columns: 550px repeat(2, auto);
+  }
+}
+@media screen and (max-width:320px) {
+  .header{
+    grid-template-columns: 200px repeat(2, auto);
+  }
+}*/

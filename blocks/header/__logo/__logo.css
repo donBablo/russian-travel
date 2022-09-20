@@ -3,5 +3,13 @@
   height: 52px;
   left: 48px;
   top: 28px;
-  position: absolute;
+  display: grid;
+  grid-area: logo;
+  justify-self: start;
+}
+@media screen and (max-width:320px) {
+  .header__logo{
+    width: 142px;
+    height: 42px;
+  }
 }

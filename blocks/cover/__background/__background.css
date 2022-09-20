@@ -3,13 +3,14 @@
   width: 100%;
   height: 740px;
   background-size: cover;
+  z-index: -1;
 }
 
-.cover__background:hover{
+/*.cover__background:hover{
   transition-property: opacity;
   opacity: .75;
   transition-duration: 0.25s;
-}
+}*/
 
 @media screen and (max-width:1280px) {
   .cover__background{

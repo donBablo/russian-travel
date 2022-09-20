@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("Inter-Regular.woff2?v=3.19") format("woff2"),
+       url("Inter-Regular.woff?v=3.19") format("woff");
+}
 .header__lang-link{
   color: #ffffff;
   width: 30px;
@@ -6,7 +14,17 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 28px;
+  display: grid;
+  grid-area: link;
 }
 .header__lang-link:hover {
   text-decoration: underline;
+}
+.header__lang-link:nth-child(2){
+  grid-column: 2;
+  justify-self: end;
+}
+.header__lang-link:nth-child(3){
+  grid-column: 3;
+  justify-self: start;
 }
