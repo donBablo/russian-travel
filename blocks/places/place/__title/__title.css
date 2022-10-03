@@ -1,11 +1,3 @@
-/*@font-face {
-  font-family: 'Inter';
-  font-style:  normal;
-  font-weight: 900;
-  font-display: swap;
-  src: url("Inter-Black.woff2?v=3.19") format("woff2"),
-       url("Inter-Black.woff?v=3.19") format("woff");
-}*/
 .place__title{
   font-weight: 900;
   font-size: 72px;
@@ -14,4 +6,17 @@
   margin-bottom: 48px;
   inline-size: fit-content;
   grid-area: place__title;
+}
+@media screen and (max-width:768px) {
+  .place__title{
+    font-size: 42px;
+    line-height: 46px;
+  }
+}
+@media screen and (max-width:320px) {
+  .place__title{
+    margin-bottom: 32px;
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
